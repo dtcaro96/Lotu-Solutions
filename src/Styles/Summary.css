@@ -74,6 +74,13 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+}
+
+.summary .link .leftSumBox:hover {
+  background-color: #f0a4ac;
+  color: #6E336B;
 }
 
 .summary .link h6 {
@@ -99,6 +106,13 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+}
+
+.summary .link .rightSumBox:hover {
+  background-color: #f0a4ac;
+  color: #6E336B;
 }
 
 .summary .link .rightSumBox h6 {

@@ -1,4 +1,6 @@
 $purpleColor: #8A4086
+$darkPinkColor: #f0a4ac
+$darkPurpleColor: #6E336B
 
 .summary
     font-family: Cabin
@@ -40,6 +42,10 @@ $purpleColor: #8A4086
             flex-direction: column
             justify-content: space-evenly
             align-items: flex-end
+            transition: 200ms ease-in-out
+            &:hover
+                background-color: $darkPinkColor
+                color: $darkPurpleColor
         h6
             font-weight: 600
             font-size: 25px
@@ -52,5 +58,9 @@ $purpleColor: #8A4086
             flex-direction: column
             justify-content: space-evenly
             align-items: flex-start
+            transition: 200ms ease-in-out
+            &:hover
+                background-color: $darkPinkColor
+                color: $darkPurpleColor
             h6
                 margin: 0 0 0 20px

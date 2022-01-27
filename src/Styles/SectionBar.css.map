@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,WAAW,CAAC;EACR,UAAU,EAAE,IAAI,CAAC,KAAK,CAHZ,OAAO;EAIjB,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,GAAG;EACX,KAAK,EAAE,KAAK;CAAG",
+    "sources": [
+        "SectionBar.sass"
+    ],
+    "names": [],
+    "file": "SectionBar.css"
+}

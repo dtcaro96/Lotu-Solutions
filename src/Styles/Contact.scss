@@ -1,0 +1,177 @@
+$blackColor: #000000;
+$whiteColor: #FFFFFF;
+$purpleColor: #8A4086;
+$pinkColor: #F4BAC0;
+$darkPinkColor: #f0a4ac;
+$darkPurpleColor: #6E336B;
+
+@mixin optional-at-root($sel) {
+    @at-root #{if(not &, $sel, selector-append(&, $sel))} {
+      @content;
+    }
+  }
+  @mixin placeholder {
+    @include optional-at-root('::-webkit-input-placeholder') {
+      @content;
+    }
+  
+    @include optional-at-root(':-moz-placeholder') {
+      @content;
+    }
+  
+    @include optional-at-root('::-moz-placeholder') {
+      @content;
+    }
+  
+    @include optional-at-root(':-ms-input-placeholder') {
+      @content;
+    }
+  }
+
+.contactForm {
+    font-family: Lato;
+    color: $purpleColor;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+    h3 {
+        font-weight: bold;
+        font-size: 50px;
+    };
+    form {
+        color: $purpleColor;
+    };
+    .formBox {
+        display: flex;
+        flex-wrap: wrap;
+        height: 680px;
+        width: 530px;
+        border: 10px solid $purpleColor;
+        .inputOne {
+            height: 80px;
+            font-weight: bold;
+            text-align: start;
+            width: 220px;
+            font-size: 30px;
+            font-family: inherit;
+            color: $purpleColor;
+            background: transparent;
+            border: 0;
+            padding: 0;
+            padding-left: 40px;
+            border-bottom: 10px solid $purpleColor;
+            border-right: 5px solid $purpleColor;
+            @include placeholder {
+                color: $purpleColor;
+            };
+            &:focus {
+                background-color: $darkPinkColor;
+                outline: none;
+                color: $darkPurpleColor;
+                @include placeholder {
+                    color: $darkPurpleColor;
+                };
+            }
+        };
+        .inputTwo {
+            height: 80px;
+            font-weight: bold;
+            text-align: start;
+            width: 220px;
+            font-size: 30px;
+            font-family: inherit;
+            color: $purpleColor;
+            background: transparent;
+            border: 0;
+            padding: 0;
+            padding-left: 40px;
+            border-bottom: 10px solid $purpleColor;
+            border-left: 5px solid $purpleColor;
+            @include placeholder {
+                color: $purpleColor
+            };
+            &:focus {
+                background-color: $darkPinkColor;
+                outline: none;
+                color: $darkPurpleColor;
+                @include placeholder {
+                    color: $darkPurpleColor;
+                };
+            }
+        };
+        .inputThreeFour {
+            height: 80px;
+            border: 0;
+            border-bottom: 10px solid $purpleColor;
+            width: calc(100% - 40px);
+            background: transparent;
+            font-weight: bold;
+            font-family: inherit;
+            font-size: 30px;
+            padding: 0;
+            text-align: start;
+            padding-left: 40px;
+            color: $purpleColor;
+            @include placeholder {
+                color: $purpleColor
+            };
+            &:focus {
+                background-color: $darkPinkColor;
+                outline: none;
+                color: $darkPurpleColor;
+                @include placeholder {
+                    color: $darkPurpleColor;
+                };
+            }
+        }
+        .inputFive {
+            height: 240px;
+            border: 0;
+            border-bottom: 10px solid $purpleColor;
+            width: calc(100% - 80px);
+            background: transparent;
+            padding: 25px 40px 50px 40px;
+            font-family: Lato;
+            font-family: inherit;
+            font-size: 30px;
+            font-weight: 700;
+            color: $purpleColor;
+            resize: none;
+            @include placeholder {
+                color: $purpleColor;
+            };
+            &:focus {
+                background-color: $darkPinkColor;
+                outline: none;
+                color: $darkPurpleColor;
+                @include placeholder {
+                    color: $darkPurpleColor;
+                };
+            }
+        };
+        .buttonBox {
+            display: flex;
+            height: 78px;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        };
+        button {
+            background: transparent;
+            font-family: inherit;
+            color: $purpleColor;
+            padding: 24.5px 209.2px;
+            font-size: 30px;
+            font-weight: bold;
+            border: 0;
+            transition: 200ms ease-in-out;
+            &:hover {
+                cursor: pointer;
+                background-color: $darkPinkColor;
+                color: $darkPurpleColor;
+            };
+
+        }
+    };
+}

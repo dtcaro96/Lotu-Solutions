@@ -1,0 +1,282 @@
+.contactForm {
+  font-family: Lato;
+  color: #8A4086;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 60px;
+}
+
+.contactForm h3 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.contactForm form {
+  color: #8A4086;
+}
+
+.contactForm .formBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 680px;
+  width: 530px;
+  border: 10px solid #8A4086;
+}
+
+.contactForm .formBox .inputOne {
+  height: 80px;
+  font-weight: bold;
+  text-align: start;
+  width: 220px;
+  font-size: 30px;
+  font-family: inherit;
+  color: #8A4086;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  padding-left: 40px;
+  border-bottom: 10px solid #8A4086;
+  border-right: 5px solid #8A4086;
+}
+
+.contactForm .formBox .inputOne::-webkit-input-placeholder {
+  color: #8A4086;
+}
+
+.contactForm .formBox .inputOne:-moz-placeholder {
+  color: #8A4086;
+}
+
+.contactForm .formBox .inputOne::-moz-placeholder {
+  color: #8A4086;
+}
+
+.contactForm .formBox .inputOne:-ms-input-placeholder {
+  color: #8A4086;
+}
+
+.contactForm .formBox .inputOne:focus {
+  background-color: #f0a4ac;
+  outline: none;
+  color: #6E336B;
+}
+
+.contactForm .formBox .inputOne:focus::-webkit-input-placeholder {
+  color: #6E336B;
+}
+
+.contactForm .formBox .inputOne:focus:-moz-placeholder {
+  color: #6E336B;
+}
+
+.contactForm .formBox .inputOne:focus::-moz-placeholder {
+  color: #6E336B;
+}
+
+.contactForm .formBox .inputOne:focus:-ms-input-placeholder {
+  color: #6E336B;
+}
+
+.contactForm .formBox .inputTwo {
+  height: 80px;
+  font-weight: bold;
+  text-align: start;
+  width: 220px;
+  font-size: 30px;
+  font-family: inherit;
+  color: #8A4086;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  padding-left: 40px;
+  border-bottom: 10px solid #8A4086;
+  border-left: 5px solid #8A4086;
+}
+
+.contactForm .formBox .inputTwo::-webkit-input-placeholder {
+  color: #8A4086;
+}
+
+.contactForm .formBox .inputTwo:-moz-placeholder {
+  color: #8A4086;
+}
+
+.contactForm .formBox .inputTwo::-moz-placeholder {
+  color: #8A4086;
+}
+
+.contactForm .formBox .inputTwo:-ms-input-placeholder {
+  color: #8A4086;
+}
+
+.contactForm .formBox .inputTwo:focus {
+  background-color: #f0a4ac;
+  outline: none;
+  color: #6E336B;
+}
+
+.contactForm .formBox .inputTwo:focus::-webkit-input-placeholder {
+  color: #6E336B;
+}
+
+.contactForm .formBox .inputTwo:focus:-moz-placeholder {
+  color: #6E336B;
+}
+
+.contactForm .formBox .inputTwo:focus::-moz-placeholder {
+  color: #6E336B;
+}
+
+.contactForm .formBox .inputTwo:focus:-ms-input-placeholder {
+  color: #6E336B;
+}
+
+.contactForm .formBox .inputThreeFour {
+  height: 80px;
+  border: 0;
+  border-bottom: 10px solid #8A4086;
+  width: calc(100% - 40px);
+  background: transparent;
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 30px;
+  padding: 0;
+  text-align: start;
+  padding-left: 40px;
+  color: #8A4086;
+}
+
+.contactForm .formBox .inputThreeFour::-webkit-input-placeholder {
+  color: #8A4086;
+}
+
+.contactForm .formBox .inputThreeFour:-moz-placeholder {
+  color: #8A4086;
+}
+
+.contactForm .formBox .inputThreeFour::-moz-placeholder {
+  color: #8A4086;
+}
+
+.contactForm .formBox .inputThreeFour:-ms-input-placeholder {
+  color: #8A4086;
+}
+
+.contactForm .formBox .inputThreeFour:focus {
+  background-color: #f0a4ac;
+  outline: none;
+  color: #6E336B;
+}
+
+.contactForm .formBox .inputThreeFour:focus::-webkit-input-placeholder {
+  color: #6E336B;
+}
+
+.contactForm .formBox .inputThreeFour:focus:-moz-placeholder {
+  color: #6E336B;
+}
+
+.contactForm .formBox .inputThreeFour:focus::-moz-placeholder {
+  color: #6E336B;
+}
+
+.contactForm .formBox .inputThreeFour:focus:-ms-input-placeholder {
+  color: #6E336B;
+}
+
+.contactForm .formBox .inputFive {
+  height: 240px;
+  border: 0;
+  border-bottom: 10px solid #8A4086;
+  width: calc(100% - 80px);
+  background: transparent;
+  padding: 25px 40px 50px 40px;
+  font-family: Lato;
+  font-family: inherit;
+  font-size: 30px;
+  font-weight: 700;
+  color: #8A4086;
+  resize: none;
+}
+
+.contactForm .formBox .inputFive::-webkit-input-placeholder {
+  color: #8A4086;
+}
+
+.contactForm .formBox .inputFive:-moz-placeholder {
+  color: #8A4086;
+}
+
+.contactForm .formBox .inputFive::-moz-placeholder {
+  color: #8A4086;
+}
+
+.contactForm .formBox .inputFive:-ms-input-placeholder {
+  color: #8A4086;
+}
+
+.contactForm .formBox .inputFive:focus {
+  background-color: #f0a4ac;
+  outline: none;
+  color: #6E336B;
+}
+
+.contactForm .formBox .inputFive:focus::-webkit-input-placeholder {
+  color: #6E336B;
+}
+
+.contactForm .formBox .inputFive:focus:-moz-placeholder {
+  color: #6E336B;
+}
+
+.contactForm .formBox .inputFive:focus::-moz-placeholder {
+  color: #6E336B;
+}
+
+.contactForm .formBox .inputFive:focus:-ms-input-placeholder {
+  color: #6E336B;
+}
+
+.contactForm .formBox .buttonBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 78px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+
+.contactForm .formBox button {
+  background: transparent;
+  font-family: inherit;
+  color: #8A4086;
+  padding: 24.5px 209.2px;
+  font-size: 30px;
+  font-weight: bold;
+  border: 0;
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+}
+
+.contactForm .formBox button:hover {
+  cursor: pointer;
+  background-color: #f0a4ac;
+  color: #6E336B;
+}
+/*# sourceMappingURL=Contact.css.map */

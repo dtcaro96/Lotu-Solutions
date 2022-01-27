@@ -1,6 +1,5 @@
 .app {
   height: 100vh;
-  background-color: #F4BAC0;
 }
 
 .root {
@@ -14,5 +13,11 @@
   min-height: 100vh;
   margin: none;
   padding: none;
+  background-color: #F4BAC0;
+}
+
+.bottomImg {
+  margin-top: 200px;
+  width: 100%;
 }
 /*# sourceMappingURL=App.css.map */
